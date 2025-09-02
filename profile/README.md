@@ -14,6 +14,9 @@ The system uses an iterative **"Act, Execute, Reflect"** cycle:
 
 - **Result:** When the goal is achieved, the middleService sends the final result back to the user, including details like the file's final name and location.
 
+>[!NOTE]
+>While this is just an example of the internal process, the main goal is to have a system that can effectively fulfill a user's request.
+
 This communication allows auracmd to handle edge cases and adapt its strategy, ensuring a successful outcome for multi-step tasks.
 
 ### Architecture overview
