@@ -19,7 +19,7 @@ This communication allows auracmd to handle edge cases and adapt its strategy, e
 ### Architecture overview
 ##### auracmd is powered by three collaborating microservices:
 
-![topology]()
+![topology](https://github.com/auracmd/.github/blob/main/profile/AI-Agent-Orch%20(1).png)
 
 - middleService (**Orchestrator**): The central hub that manages the conversation flow, routes requests, and handles the Act, Execute, Reflect loop.
 - AIService (**Reasoning Agent**): Contains the core AI logic, powered by an LLM, to interpret user intent, plan commands, and analyze feedback from the execution service.
