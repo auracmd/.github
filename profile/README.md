@@ -33,3 +33,8 @@ This communication allows auracmd to handle edge cases and adapt its strategy, e
 - middleService (**Orchestrator**): The central hub that manages the conversation flow, routes requests, and handles the Act, Execute, Reflect loop.
 - AIService (**Reasoning Agent**): Contains the core AI logic, powered by an LLM, to interpret user intent, plan commands, and analyze feedback from the execution service.
 - cmdService (**Execution Agent**): A specialized service that securely executes system commands, receives their output, and returns it to the orchestrator.
+
+### About
+This project aims to create an open source solution for those who want to run local or online AI models. We’re building an AI-agent that can execute terminal commands and interact with the system, similar to a command-line assistant, as there are other open source solutions already out there.
+
+This project is just an opportunity for us to learn and get more experience. Aim to experiment with new tools, try different approaches, and try to apply best practices as we continue.
