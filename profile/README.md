@@ -20,6 +20,12 @@ The system uses an iterative **"Act, Execute, Reflect"** cycle:
 This communication allows auracmd to handle edge cases and adapt its strategy, ensuring a successful outcome for multi-step tasks.
 
 ### Architecture overview
+
+>[!IMPORTANT]
+>We will start by making each service a library. We are not sure if it's a good idea to go as far as making each one a microservice. I doubt there will be a significant performance hit since this is a very simple app, but if the overhead turns out to be too much, it will be easier to transition from libraries to microservices using RPC later on.
+>
+>Doing it this way is meant to simplify the development process, as each component will be a separate library instead of being tightly coupled as part of the main app. This allows for better modularity and easier maintenance, since individual components can evolve independently without disrupting the overall system.
+
 ##### auracmd is powered by three collaborating microservices:
 
 ![topology](https://github.com/auracmd/.github/blob/main/profile/AI-Agent-Orch%20(1).png)
